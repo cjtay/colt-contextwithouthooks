@@ -14,7 +14,7 @@ function App() {
         <div className="App">
             <AuthProvider>
                 <LangProvider>
-                    <h1>Context without Hooks!</h1>
+                    <h1>Context without Hooks!!</h1>
                     <Nav />
                     <Switch>
                         <Route exact path="/" component={ComponentOne} />
