@@ -11,14 +11,15 @@ import './App.css';
 
 function App() {
     return (
-        <div className='App'>
+        <div className="App">
             <AuthProvider>
                 <LangProvider>
+                    <h1>Context without Hooks</h1>
                     <Nav />
                     <Switch>
-                        <Route exact path='/' component={ComponentOne} />
-                        <Route exact path='/two' component={ComponentTwo} />
-                        <Route exact path='/three' component={ComponentThree} />
+                        <Route exact path="/" component={ComponentOne} />
+                        <Route exact path="/two" component={ComponentTwo} />
+                        <Route exact path="/three" component={ComponentThree} />
                     </Switch>
                 </LangProvider>
             </AuthProvider>
